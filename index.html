@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1>JUEGO DE ADIVINANZA</h1>
+    <hr>
+    <h2>hecho por Lucas Góngora</h2>
+    <label for="adivinanza">Intenta adivinar el número entre el 1 y el 100: </label>
+    <input type="number" id="adivinanza" name="adivinanza">
+    <br>
+    <input type="submit" name="adivina" id="adivina" onclick="adivinar()">
+    <p id="mensaje"></p>
+    <h4>Intentos: <br> <p id="intento"></p> </h4>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
